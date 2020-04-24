@@ -1,0 +1,29 @@
+server:
+  port: 7999
+spring:
+  servlet:
+    multipart:
+      max-request-size: 100MB
+      max-file-size: 20MB
+  http:
+    encoding:
+      charset: utf-8
+      force: true
+      enabled: true
+  datasource:
+    platform: mysql
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 3
+    maxActive: 500
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 1
+    testOnBorrow: true
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/job?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf-8&useAffectedRows=true&rewriteBatchedStatements=true
+    username: root
+    password: root
