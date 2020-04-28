@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
 
-@MapperScan("com.devin.order.mapper")
+@MapperScan("com.devin.Order.mapper")
 @SpringBootApplication
 public class OrderGrabbingApplication {
 

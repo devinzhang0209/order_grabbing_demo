@@ -1,6 +1,6 @@
 package com.devin.order.controller;
 
-import com.devin.order.Service.Job51SearchHandle;
+import com.devin.order.Service.OrderService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,15 +14,15 @@ import javax.annotation.Resource;
  * @date 2020/4/22 16:36
  */
 @RestController
-@RequestMapping("/job")
-public class JobController {
+@RequestMapping("/order")
+public class OrderController {
 
     @Resource
-    private Job51SearchHandle job51SearchHandle;
+    private OrderService orderService;
 
-    @GetMapping("/51jobHandle")
-    public String handle51JobController() throws Exception {
-        job51SearchHandle.handle();
-        return "success";
+    @GetMapping("/addOrder")
+    public String addOrder(String userId) {
+        return orderService.insertOrder(userId);
     }
+
 }
