@@ -74,7 +74,8 @@ public class OrderService {
             //库存大于0才能继续下单
             if (productCount > 0) {
 
-                rabbitTemplate.convertAndSend(RabbitConstants.TOPIC_ROUTING_KEY, userId);
+                rabbitTemplate.convertAndSend(RabbitConstants.TOPIC_MODE_QUEUE, "topic.queue", userId);
+
                 //减库存
                 redisClient.set(PRODUCT_ID_KEY, (productCount - 1));
                 //记录用户已买

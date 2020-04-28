@@ -50,6 +50,7 @@ public class RabbitMqHandler {
     public void queueTopicHandler(String message) {
         log.info("主题模式处理器，接收消息：[{}]", message);
 
+        //todo
 
         String userId = message;
 
