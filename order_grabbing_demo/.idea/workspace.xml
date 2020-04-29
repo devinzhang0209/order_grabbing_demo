@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10a11196-b05b-4db6-a8e6-481c99e8a30b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/order_grabbing_demo_api/src/main/test/OrderThreadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order_grabbing_demo_api/src/main/java/com/devin/order/Service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order_grabbing_demo_api/src/main/java/com/devin/order/Service/OrderService.java" afterDir="false" />
-    </list>
+    <list default="true" id="10a11196-b05b-4db6-a8e6-481c99e8a30b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/job-search/target/" />
@@ -401,7 +397,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588069767067" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588126514711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javach01/javach01/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
