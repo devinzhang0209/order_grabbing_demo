@@ -29,7 +29,7 @@ public class OrderService {
 
 
     private static final String FAIL_BUYED = "已经买过了";
-    private static final String BUYE_SUCCESS = "购买成功";
+    private static final String BUYE_SUCCESS = "抢到了，订单生成中";
     private static final String FAIL_SOLD_OUT = "没货了";
     private static final String FAIL_BUSY = "排队中，请重试！";
 
